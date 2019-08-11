@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 400px;
+    width: 400px;
+    display: grid;
+    justify-content: center;
+    border: 2px solid gray;
+    align-items: center;
+    margin: 20%;
+}
+
+header {
+    font-family: sans-serif;
+    color: white;
+    background-color: #93C37D;
+    border-top: 10px solid #93C37D;
+    border-right: 30px solid #93C37D;
+    border-bottom: 10px solid #93C37D;
+    border-left: 30px solid #93C37D;
+}
+
+input {
+    display: grid;
+    border: 1px solid #93C37D; 
+}
