@@ -1,6 +1,10 @@
 
-$('#submit').on('click', function(e) {
+$('#submit').on('click', function() {
     $('ul').append($('<li>' + $('#newSkill').val() + '</li>'))
+})
+
+$('ul').click(function() {
+    this.remove();
 })
 
 
